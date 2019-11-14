@@ -4,6 +4,8 @@ const hbs = require ('hbs')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
+console.log("Print Git Control in action")
+
 const app = express ()
 
 console.log(__dirname)
